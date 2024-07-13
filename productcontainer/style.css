@@ -1,0 +1,42 @@
+
+
+body {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#img {
+    width: 500px;
+}
+
+#container img{
+    margin-right: 2%;
+    border-right: 1px solid black;
+}
+
+@media only screen and (max-width: 770px) {
+    #container {
+        width: 100%;
+        margin: 0%;
+    }
+
+    #container img {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+
+    .container {
+        width: 100%;
+        text-align: left;
+    }
+
+    button {
+        align-content: center;
+    }
+}

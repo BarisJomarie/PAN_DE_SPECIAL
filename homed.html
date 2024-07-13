@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+  <html>
+    <head>      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Pan de Special</title>
+      <script src="https://kit.fontawesome.com/06d9228588.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/homed.css">
+      <link rel="shortcut icon" type="image/logo" href="css/img/shortcut_logo-fotor.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <style>
+        body {
+        font-family: "Lato", sans-serif;
+      }
+
+      .navbar-mobile {
+        background-color: #180e00;
+      }
+
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        border-radius: 1px;
+        background-color: #180e00;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: bisque;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav a {
+          font-size: 18px;
+        }
+      }
+      </style>
+      
+      <!-- <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <span class="promo"><a href="#promo">Promo</a></span>
+        <a href="#survey">Survey</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> hellloooooo
+          <i class="fa fa-bars"></i>
+        </a>
+      </div> -->
+
+      <div class="navbar-mobile" style="border-bottom: 2px solid rgb(255, 238, 192);">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a>
+          <a href="#">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="#" style="color: burlywood;">Category</a>
+          <a href="category/cat_pandesal.html">>&emsp;Pandesal</a>
+          <a href="category/cat-loaf.html">>&emsp;Loaf Breads</a>
+          <a href="category/cat-spreads.html">>&emsp;Spreads</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="survey.html">Survey</a>
+        </div>
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><i class="fa-solid fa-bars fa-2xl" style="color: burlywood; margin: 15% 0% 15% 10%;"></i></span>
+      </div>
+
+      <div class="navbar">
+        <a href="#"><b>Home</b></a>
+        <div class="dropdown">
+          <button id="menu" class="dropbtn" style="font-family: Arial, Helvetica, sans-serif;"><b>Menu</b>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="category/cat_pandesal.html"><img src="css/img/pandesal-classic.png"><div class="desc">Pandesal Category</div></a>
+            <a href="category/cat-loaf.html"><img src="css/img/loafbread-classic.png"><div class="desc">Loaf Bread Category</div></a>
+            <a href="category/cat-spreads.html"><img src="css/img/spread-organicstrawberry.png"><div class="desc">Spreads Category</div></a>
+          </div>
+        </div> 
+        <a href="about.html"><b>About</b></a>
+        <a href="contact.html"><b>Contact</b></a>
+        <!-- <span class="promo"><a href="#">Promo</a></span> -->
+        <a href="survey.html"><b>Survey</b></a>
+      </div>
+
+
+
+      <div class="textbox">
+          <h1 class="text"><span style="font-size: 150%;">"<span style="text-transform: uppercase; color: #ffbe31;">Happiness</span></span> is homemade, and it starts in the bakery"</h1>
+      </div>
+      <div>
+        &nbsp;
+        <h1 hidden>1</h1>
+      </div>
+      <div>
+        <img id="pandelogo"src="css/img/logo.png" class="logo">
+      </div>
+      <div class="textbox-2">
+        <h1 class="text" style="margin-bottom: 20%;"><span style="font-size: 150%;">"<span style="text-transform: uppercase; color: #ffbe31;">Happiness</span></span> is homemade, and it starts in the bakery"</h1>
+      </div>
+      
+
+
+      <!-- <div class="container">
+        <div class="texts1">
+          <div>
+            <a href="about.html">
+              <h1>Our Story</h1>
+            </a>
+          </div>
+        </div>
+
+        <div class="texts2">
+          <div>
+            <a href="survey.html">
+              <h1>Our Stores</h1> 
+            </a>
+          </div>
+        </div>
+
+        <div class="texts3">
+          <div>
+            <a target="_blank" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj4wJfm09eFAxXfo2YCHXEXChEYABAAGgJzbQ&ase=2&gclid=Cj0KCQjwlZixBhCoARIsAIC745CiTuW6WP7dkV3qOg7W7crUMjY-TdDfNNSXbFyat1X6WH0G22RLojYaAqpkEALw_wcB&ohost=www.google.com&cid=CAESV-D2CnY1WW0__j0yaVC2HKFBmbodKhpdbTQOUHrGpV5TfCUqXeNbq0Er8RE4z_ZRGjsidYK4fd1Ej7ZVJ7C2PN2s0M0hL8FohipOjTXwN3C8Cj6nMOLCeQ&sig=AOD64_2wvgj3OyklaYZMX_W0Xkfqbu7w1w&q&nis=4&adurl&ved=2ahUKEwiY3I3m09eFAxUGzzgGHcl3DXMQ0Qx6BAgHEAE">
+              <h1>Order Online</h1>
+            </a>
+          </div>
+        </div>
+      </div> -->
+      
+
+      <div class="footer">
+        <p>COPYRIGHT © 2024 THE BEST PANDESAL IN THE PHILIPPINES. Pan de Special BY GROUP 13 ALL RIGHTS RESERVED.</p>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("mySidenav").style.borderRight = "1px solid rgb(255, 238, 192)";
+        }
+  
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("mySidenav").style.borderRight = "0";
+        }
+      </script>
+    </body>
+  </html>
